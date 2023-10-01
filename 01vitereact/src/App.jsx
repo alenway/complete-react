@@ -1,5 +1,6 @@
+import Hello from "./Hello"
 function App() {
-  return <h1>hello world from vite</h1>;
+  return <Hello />;
 }
 
 export default App;
