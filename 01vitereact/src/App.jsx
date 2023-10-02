@@ -1,6 +1,12 @@
-import Hello from "./Hello"
+import Hello from "./Hello";
 function App() {
-  return <Hello />;
+  const username = "coding";
+  return (
+    <>
+      <Hello />
+      <h1>{username}</h1>
+    </>
+  );
 }
 
 export default App;
