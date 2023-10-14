@@ -18,7 +18,6 @@ function App() {
     setAmount(convertedAmount); // Swap 'amount' and 'convertedAmount'
     setConvertedAmount(amount);
   };
-  
 
   const convert = () => {
     setConvertedAmount(amount * currencyInfo[to]);
