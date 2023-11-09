@@ -1,10 +1,9 @@
-import HelloWorld from "./components/HelloWorld";
-
+import Multiplestates from "./components/multiplestates/Multiplestates";
 function App() {
-
+  
   return (
     <>
-      <HelloWorld />
+      <Multiplestates />
     </>
   );
 }
